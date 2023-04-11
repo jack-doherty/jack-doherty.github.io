@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Website Project</title>
     <link rel="stylesheet" href="./build/tailwind.css" />
+    <style>
+      .nav-link:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        transition: background-color 0.2s ease-in-out;
+      }
+    </style>
   </head>
 
   <body class="bg-gradient-to-r from-purple-800 via-blue-700 to-purple-800">
@@ -15,7 +21,8 @@
             <span class="text-white text-xl font-semibold">Jack Doherty</span>
           </div>
           <div class="hidden md:flex items-center space-x-4">
-            <a href="#" class="btn btn-primary px-4 py-2 capitalize w-auto h-auto rounded-md">Resume</a>
+            <a href="/index.html" class="btn btn-primary px-4 py-2 capitalize w-auto h-auto rounded-md">Home</a>
+            <a href="/resume.html"class="btn btn-primary px-4 py-2 capitalize w-auto h-auto rounded-md">Resume</a>
             <a href="#" class="btn btn-primary px-4 py-2 capitalize w-auto h-auto rounded-md">Programs</a>
             <a href="#" class="btn btn-primary px-4 py-2 capitalize w-auto h-auto rounded-md">Hobbies</a>
           </div>
